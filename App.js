@@ -109,6 +109,7 @@ const styles = StyleSheet.create({
   },
     styleView:{
       flexDirection: "row", 
-      alignSelf: "center"
+      alignSelf: "center",
+      alignItems:"center"
     },
 });
