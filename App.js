@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     borderWidth: 4,
     outline: 'none',
-    borderRadius:20,
+    borderRadius:50,
   },
   goButton: {
     width: '50%',
@@ -101,6 +101,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 30,
     fontWeight: 'bold',
+    
   },
   imageIcon: {
     width: 150,
