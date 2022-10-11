@@ -25,7 +25,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Header
-          backgroundColor={'#9c8210'}
+          backgroundColor={'#593006'}
           centerComponent={{
             text: 'Macaquinho Fofo',
             style: { color: '#fff', fontSize: 20 },
@@ -102,8 +102,8 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   imageIcon: {
-    width: 150,
-    height: 150,
-    marginLeft: 95,
+    width: 200,
+    height: 200,
+    alignSelf:  "center",
   }
 });
