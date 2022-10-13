@@ -26,6 +26,7 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <Header
           backgroundColor={'#9c8210'}
+          //muda a cor do fundo
           centerComponent={{
             text: 'Macaquinho Fofo',
             style: { color: '#fff', fontSize: 20 },
