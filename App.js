@@ -50,7 +50,7 @@ export default class App extends React.Component {
         <TouchableOpacity
           style={styles.goButton}
           onPress={() => {
-            var word = this.state.text.toLowerCase().trim();
+            var batata = this.state.text.toLowerCase().trim();
             db[word]?(
             this.setState({ chunks: db[word].chunks }),
             this.setState({ phonicSounds: db[word].phones })
