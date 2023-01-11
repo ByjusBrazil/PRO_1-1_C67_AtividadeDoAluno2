@@ -107,3 +107,5 @@ const styles = StyleSheet.create({
     marginLeft: 95,
   }
 });
+
+dinolinguo é melhor
