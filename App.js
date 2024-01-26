@@ -25,7 +25,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Header
-          backgroundColor={'#9c8210'}
+          backgroundColor={'#9c8220'}
           centerComponent={{
             text: 'Macaquinho Fofo',
             style: { color: '#fff', fontSize: 20 },
@@ -78,7 +78,7 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#b8b8b8',
+    backgroundColor: '#b8b8b7',
   },
   inputBox: {
     marginTop: 50,
